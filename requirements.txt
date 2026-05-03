@@ -6,3 +6,5 @@ psycopg2-binary>=2.9,<3.0
 requests>=2.32,<3.0
 celery[redis]>=5.4,<6.0
 redis>=5.0,<6.0
+gunicorn>=22.0,<23.0
+dj-database-url>=2.2,<3.0
