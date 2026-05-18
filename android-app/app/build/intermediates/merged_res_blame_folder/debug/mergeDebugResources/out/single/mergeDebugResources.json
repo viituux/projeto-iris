@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-debug-38:\\drawable_bg_avatar_circle.xml.flat",
+        "source": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-main-40:\\drawable\\bg_avatar_circle.xml"
+    },
+    {
+        "merged": "com.iris.app-debug-38:/layout_activity_main.xml.flat",
+        "source": "com.iris.app-main-40:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-debug-38:\\layout_activity_delegacias.xml.flat",
+        "source": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-main-40:\\layout\\activity_delegacias.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-debug-38:\\drawable_applogo.xml.flat",
+        "source": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-main-40:\\drawable\\applogo.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-debug-38:\\drawable_ic_chevron_left.xml.flat",
+        "source": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-main-40:\\drawable\\ic_chevron_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-debug-38:\\layout_activity_apoio_psicologico.xml.flat",
+        "source": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-main-40:\\layout\\activity_apoio_psicologico.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-debug-38:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-main-40:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-debug-38:\\drawable_app_logo.xml.flat",
+        "source": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-main-40:\\drawable\\app_logo.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-debug-38:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-main-40:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-debug-38:\\layout_activity_add_contact.xml.flat",
+        "source": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-main-40:\\layout\\activity_add_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-debug-38:\\drawable_bg_card_soft.xml.flat",
+        "source": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-main-40:\\drawable\\bg_card_soft.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-debug-38:\\layout_item_direito.xml.flat",
+        "source": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-main-40:\\layout\\item_direito.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-debug-38:\\drawable_bg_sos_circle.xml.flat",
+        "source": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-main-40:\\drawable\\bg_sos_circle.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-debug-38:\\layout_activity_meus_direitos.xml.flat",
+        "source": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-main-40:\\layout\\activity_meus_direitos.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-debug-38:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-main-40:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-debug-38:\\drawable_bg_rounded_soft.xml.flat",
+        "source": "C:\\Users\\victo\\.gradle\\daemon\\8.7\\com.iris.app-main-40:\\drawable\\bg_rounded_soft.xml"
+    }
+]

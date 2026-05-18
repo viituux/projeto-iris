@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">IRIS</string>
+    <string name="api_base_url" translatable="false">http://10.31.3.160:8000/</string>
+    <string name="antecedentes">Antecedentes</string>
+    <string name="apoio_psicologico">Apoio Psicológico</string>
+    <string name="denuncia">Fazer Denúncia</string>
+    <string name="contatos_emergencia">Contatos de Emergência</string>
+</resources>

@@ -1,0 +1,194 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.iris.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:5:5-79
+12-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:6:5-81
+13-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:7:5-71
+14-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:7:22-68
+15
+16    <permission
+16-->[androidx.core:core:1.13.1] C:\Users\victo\.gradle\caches\transforms-4\8e0a0bff2d388b6446750efdf4a5758f\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+17        android:name="com.iris.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.13.1] C:\Users\victo\.gradle\caches\transforms-4\8e0a0bff2d388b6446750efdf4a5758f\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.13.1] C:\Users\victo\.gradle\caches\transforms-4\8e0a0bff2d388b6446750efdf4a5758f\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.iris.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.13.1] C:\Users\victo\.gradle\caches\transforms-4\8e0a0bff2d388b6446750efdf4a5758f\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.13.1] C:\Users\victo\.gradle\caches\transforms-4\8e0a0bff2d388b6446750efdf4a5758f\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:9:5-44:19
+23        android:allowBackup="true"
+23-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.13.1] C:\Users\victo\.gradle\caches\transforms-4\8e0a0bff2d388b6446750efdf4a5758f\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="false"
+27        android:icon="@drawable/logo"
+27-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:11:9-38
+28        android:label="@string/app_name"
+28-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:12:9-41
+29        android:roundIcon="@drawable/logo"
+29-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:13:9-43
+30        android:supportsRtl="true"
+30-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:14:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.IrisApp"
+32-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:15:9-45
+33        android:usesCleartextTraffic="true" >
+33-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:16:9-44
+34        <activity
+34-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:17:9-19:40
+35            android:name="com.iris.app.MainActivity"
+35-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:18:13-41
+36            android:exported="false" />
+36-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:19:13-37
+37        <activity
+37-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:20:9-23:49
+38            android:name="com.iris.app.AddContactActivity"
+38-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:21:13-47
+39            android:exported="false"
+39-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:22:13-37
+40            android:label="Adicionar Contato" />
+40-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:23:13-46
+41        <activity
+41-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:24:9-27:45
+42            android:name="com.iris.app.MeusDireitosActivity"
+42-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:25:13-49
+43            android:exported="false"
+43-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:26:13-37
+44            android:label="Meus Direitos" />
+44-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:27:13-42
+45        <activity
+45-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:28:9-31:49
+46            android:name="com.iris.app.ApoioPsicologicoActivity"
+46-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:29:13-53
+47            android:exported="false"
+47-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:30:13-37
+48            android:label="Apoio Psicológico" />
+48-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:31:13-46
+49        <activity
+49-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:32:9-35:49
+50            android:name="com.iris.app.DelegaciasActivity"
+50-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:33:13-47
+51            android:exported="false"
+51-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:34:13-37
+52            android:label="Delegacias Manaus" />
+52-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:35:13-46
+53        <activity
+53-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:36:9-43:20
+54            android:name="com.iris.app.LoginActivity"
+54-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:37:13-42
+55            android:exported="true" >
+55-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:38:13-36
+56            <intent-filter>
+56-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:39:13-42:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:40:17-69
+57-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:40:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:41:17-77
+59-->D:\projeto-iris\android-app\app\src\main\AndroidManifest.xml:41:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\victo\.gradle\caches\transforms-4\db3e207e8cdea149435fa399a0395321\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+63            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+63-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\victo\.gradle\caches\transforms-4\db3e207e8cdea149435fa399a0395321\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+64            android:exported="false"
+64-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\victo\.gradle\caches\transforms-4\db3e207e8cdea149435fa399a0395321\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+65            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+65-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\victo\.gradle\caches\transforms-4\db3e207e8cdea149435fa399a0395321\transformed\play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+66
+67        <meta-data
+67-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\victo\.gradle\caches\transforms-4\03233ce612030785a644ea85f8aa2e65\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+68            android:name="com.google.android.gms.version"
+68-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\victo\.gradle\caches\transforms-4\03233ce612030785a644ea85f8aa2e65\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+69            android:value="@integer/google_play_services_version" />
+69-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\victo\.gradle\caches\transforms-4\03233ce612030785a644ea85f8aa2e65\transformed\play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+70
+71        <provider
+71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo\.gradle\caches\transforms-4\192474c036ec43764acdf6f3e34ae042\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+72            android:name="androidx.startup.InitializationProvider"
+72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo\.gradle\caches\transforms-4\192474c036ec43764acdf6f3e34ae042\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+73            android:authorities="com.iris.app.androidx-startup"
+73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo\.gradle\caches\transforms-4\192474c036ec43764acdf6f3e34ae042\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+74            android:exported="false" >
+74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo\.gradle\caches\transforms-4\192474c036ec43764acdf6f3e34ae042\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+75            <meta-data
+75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo\.gradle\caches\transforms-4\192474c036ec43764acdf6f3e34ae042\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+76-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo\.gradle\caches\transforms-4\192474c036ec43764acdf6f3e34ae042\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+77                android:value="androidx.startup" />
+77-->[androidx.emoji2:emoji2:1.3.0] C:\Users\victo\.gradle\caches\transforms-4\192474c036ec43764acdf6f3e34ae042\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+78            <meta-data
+78-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\victo\.gradle\caches\transforms-4\44d9374c2fc79a1ce870385ec114cea5\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+79-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\victo\.gradle\caches\transforms-4\44d9374c2fc79a1ce870385ec114cea5\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+80                android:value="androidx.startup" />
+80-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\victo\.gradle\caches\transforms-4\44d9374c2fc79a1ce870385ec114cea5\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+81            <meta-data
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+83                android:value="androidx.startup" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+84        </provider>
+85
+86        <receiver
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+87            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+88            android:directBootAware="false"
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+89            android:enabled="true"
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+90            android:exported="true"
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+91            android:permission="android.permission.DUMP" >
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+92            <intent-filter>
+92-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+93                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+93-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+94            </intent-filter>
+95            <intent-filter>
+95-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+96                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+96-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+97            </intent-filter>
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+99                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+102                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\victo\.gradle\caches\transforms-4\4e16cc280eaa0a1f5277c41379c36ea2\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+103            </intent-filter>
+104        </receiver>
+105    </application>
+106
+107</manifest>

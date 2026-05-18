@@ -2,7 +2,7 @@ from rest_framework import status, viewsets
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
-from .models import Emergency
+from .models import Emergency, EmergencyAudio
 from .serializers import EmergencySerializer
 from .services import trigger_emergency_alerts
 
@@ -25,6 +25,11 @@ class EmergencyViewSet(viewsets.ModelViewSet):
             latitude=serializer.validated_data["latitude"],
             longitude=serializer.validated_data["longitude"],
         )
+
+        audio_file = request.FILES.get('audio')
+        if audio_file:
+            EmergencyAudio.objects.create(emergency=emergency, audio_file=audio_file)
+
         total_contacts = trigger_emergency_alerts(request.user, emergency)
 
         return Response(

@@ -1,4 +1,5 @@
 from contacts.models import EmergencyContact
+from django.db import transaction
 
 from .tasks import send_emergency_alert_task
 
@@ -18,6 +19,10 @@ def trigger_emergency_alerts(user, emergency):
     message = build_emergency_message(user.email, emergency)
 
     for contact in contacts:
-        send_emergency_alert_task.delay(emergency.id, contact.id, message)
+        transaction.on_commit(
+            lambda emergency_id=emergency.id, contact_id=contact.id, msg=message: (
+                send_emergency_alert_task.delay(emergency_id, contact_id, msg)
+            )
+        )
 
     return contacts.count()

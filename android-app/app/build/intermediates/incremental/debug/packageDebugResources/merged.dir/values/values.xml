@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string name="antecedentes">Antecedentes</string>
+    <string name="api_base_url" translatable="false">http://10.31.3.160:8000/</string>
+    <string name="apoio_psicologico">Apoio Psicológico</string>
+    <string name="app_name" translatable="false">IRIS</string>
+    <string name="contatos_emergencia">Contatos de Emergência</string>
+    <string name="denuncia">Fazer Denúncia</string>
+    <style name="Theme.IrisApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#BC7482</item>
+        <item name="colorPrimaryVariant">#A96573</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#D3B7BE</item>
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
